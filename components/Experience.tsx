@@ -15,7 +15,7 @@ export default function Experience() {
         {" "}
         <div className="max-w-5xl mx-auto px-8">
           <Title
-            text={"Experiencia 🧑🏻‍💼"}
+            text={"Experience 🧑🏻‍💼"}
             className="flex flex-col items-center justify-center rotate-6"
           />
         </div>
@@ -24,22 +24,20 @@ export default function Experience() {
             <div className="timeline-middle"></div>
             <div className="timeline-start mb-5 ">
               <div className="text-xl font-bold">
-                Pasantía en Area Comercial de Movistar Telefonica
+                Internship in the Commercial Area of Movistar Telefónica
               </div>
               <div className="text-lg text-green-500">MOVISTAR TELEFÓNICA</div>
-              <time className="text-sm">Enero - Junio 2019</time>
+              <time className="text-sm">January - June 2019</time>
               <div className="text-[#ADB7BE] text-justify">
                 <p className=" mt-1 ">
-                  · Estuve a cargo de la supervisión y control de stock en los
-                  distintos puntos fisicos de venta de la ciudad de Santa Fe.
+                  · I was in charge of supervising and controlling stock at
+                  various physical sales points in the city of Santa Fe.
                 </p>
                 <p className=" mt-2">
-                  · Eficiente trabajo en equipo, resposnabilidad y gran
-                  comunicación.
+                  · Efficient teamwork, responsibility, and excellent
+                  communication.
                 </p>
-                <p className=" mt-2">
-                  · Excelente cumplimiento de atención al cliente.
-                </p>
+                <p className=" mt-2">· Excellent customer service.</p>
               </div>
             </div>
             <hr />
@@ -47,24 +45,22 @@ export default function Experience() {
           <li>
             <hr />
             <div className="timeline-end mb-10 mt-5">
-              <div className="text-xl font-bold">
-                Desarrollador Web Frontend
-              </div>
+              <div className="text-xl font-bold">Frontend Web Developer</div>
               <div className="text-lg text-green-500">LUTIN STUDIOS</div>
-              <time className="text-sm">Agosto - Noviembre 2022</time>
+              <time className="text-sm">August - November 2022</time>
               <div className="text-[#ADB7BE] text-justify">
                 <p className="mt-1">
-                  · Colaboré en un proyecto Freelance para un cliente de Chile.
-                  Consistió en la creación de una Página Web de promoción de NFT
-                  (Tokens no Fungibles).
+                  · I collaborated on a Freelance project for a client from
+                  Chile. It involved creating a promotional NFT (Non-Fungible
+                  Tokens) Website.
                 </p>
                 <p className="mt-2">
-                  · Desarrollo y diseño en la interfaz de usuario utilizando
-                  tecnologías como HTML, CSS, ReactJS y Bootstrap.
+                  · Development and design of the user interface using
+                  technologies such as HTML, CSS, ReactJS, and Bootstrap.
                 </p>
                 <p className="mt-2">
-                  · El trabajo de equipo fue de dos Disenadores Graficos y dos
-                  Programadores Web. Excelente comunicación y trabajo en equipo.
+                  The teamwork consisted of two Graphic Designers and two Web
+                  Developers. Excellent communication and collaboration.
                 </p>
               </div>
               <Link
@@ -72,7 +68,7 @@ export default function Experience() {
                 target="_blank"
                 className=" mt-3 flex gap-2 items-center"
               >
-                <li>Página Web.</li>
+                <li>Website.</li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -93,7 +89,7 @@ export default function Experience() {
                 target="_blank"
                 className=" mt-1 flex gap-2 items-center"
               >
-                <li>Código Github.</li>
+                <li>Github Code.</li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

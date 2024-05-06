@@ -26,9 +26,9 @@ export default function HeroSection() {
       >
         <div className="space-y-8 text-center lg:text-left">
           <h1 className="text-4xl lg:text-7xl font-bold">
-            Hola!👋🏻 <br />
+            Nice to meet you!👋🏻 <br />
             <span className="underline underline-offset-8 decoration-green-500">
-              {"Soy Mateo"}
+              {"I'm Mateo"}
             </span>
           </h1>
           <div className="ml-9 flex flex-row bg-gray-900 h-10 w-[300px] rounded-[30px]">
@@ -46,7 +46,7 @@ export default function HeroSection() {
           </div>
           <p className="md:w-96 text-lg text-gray-300">
             {
-              "Especializado en el Frontend, utilizando las últimas tecnologías y frameworks disponibles puedo crear sitios y aplicaciones web a medida que se adapten a tus necesidades específicas. Te puedo asesorar en la selección de la mejor tecnología para tu proyecto, analizar los requisitos y planificar el desarrollo. Te invito a que le des un vistazo a mi CV! Ahí podes encontrar todos mis datos, educación y certificaciones."
+              "Specializing in Frontend development, I can create custom websites and web applications using the latest available technologies and frameworks that suit your specific needs. I can advise you on selecting the best technology for your project, analyze requirements, and plan development. Feel free to take a look at my CV! There, you can find all my details, education, and certifications."
             }
           </p>
           <hr className="invisible" />
@@ -79,7 +79,7 @@ export default function HeroSection() {
                 borderRadius="0.5rem"
                 className="p-3 font-semibold"
               >
-                <p>📑 Chequea mi CV!</p>
+                <p>📑 Check out my CV!</p>
               </MovingBorderBtn>
             </Link>
           </div>

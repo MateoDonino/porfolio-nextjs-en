@@ -15,7 +15,6 @@ import Title from "./Title";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "../components/ui/direction-aware-hover";
-import { FaCode } from "react-icons/fa6";
 
 export default function Projects() {
   const projects = [
@@ -51,7 +50,7 @@ export default function Projects() {
   return (
     <div className="py-10 p-5 sm:p-0">
       <Title
-        text={"Proyectos 🗂️"}
+        text={"Projects 🗂️"}
         className="flex flex-col items-center justify-center rotate-6"
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
@@ -75,7 +74,7 @@ export default function Projects() {
               </div>
               <Link href={project.github} target="_blank">
                 <p className="mt-3 flex flex-row gap-2 text-xl justify-center hover:text-green-500">
-                  Codigo en GitHub <SiGithub className="mt-1 w-5 h-5" />
+                  GitHub Code <SiGithub className="mt-1 w-5 h-5" />
                 </p>
               </Link>
             </Link>
