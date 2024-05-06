@@ -13,7 +13,7 @@ import {
 } from "react-icons/si";
 import Title from "./Title";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 import { DirectionAwareHover } from "../components/ui/direction-aware-hover";
 
 export default function Projects() {
