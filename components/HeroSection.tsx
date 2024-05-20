@@ -18,7 +18,7 @@ export default function HeroSection() {
   };
 
   return (
-    <div className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between">
+    <section className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between">
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -85,6 +85,6 @@ export default function HeroSection() {
           </div>
         </div>
       </motion.div>
-    </div>
+    </section>
   );
 }

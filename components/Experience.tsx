@@ -68,7 +68,7 @@ export default function Experience() {
                 target="_blank"
                 className=" mt-3 flex gap-2 items-center"
               >
-                <li>Website.</li>
+                <p>Website</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -89,7 +89,7 @@ export default function Experience() {
                 target="_blank"
                 className=" mt-1 flex gap-2 items-center"
               >
-                <li>Github Code.</li>
+                <p>Github Code</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

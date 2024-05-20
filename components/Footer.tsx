@@ -3,8 +3,10 @@ import Navbar from "./NavBar";
 
 export default function Footer() {
   return (
-    <div className="border-t mt-10">
-      <Navbar className="flex-col gap-5" />
-    </div>
+    <section>
+      <div className="border-t mt-10">
+        <Navbar className="flex-col gap-5" />
+      </div>
+    </section>
   );
 }

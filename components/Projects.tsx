@@ -48,7 +48,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="py-10 p-5 sm:p-0">
+    <section className="py-10 p-5 sm:p-0">
       <Title
         text={"Projects 🗂️"}
         className="flex flex-col items-center justify-center rotate-6"
@@ -57,7 +57,12 @@ export default function Projects() {
         {projects.map((project, index) => {
           return (
             <Link href={project.link} key={index} target={project.target}>
-              <div className={cn("p-2 rounded-2xl", project.background)}>
+              <div
+                className={cn(
+                  "p-2 rounded-2xl border-double border-8 border-black",
+                  project.background
+                )}
+              >
                 <DirectionAwareHover
                   imageUrl={project.cover}
                   className="w-full space-y-5 cursor-pointer"
@@ -81,7 +86,7 @@ export default function Projects() {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }
 
