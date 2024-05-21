@@ -10,6 +10,8 @@ import {
   SiTypescript,
   SiVite,
   SiGithub,
+  SiJavascript,
+  SiNodedotjs,
 } from "react-icons/si";
 import Title from "./Title";
 import Link from "next/link";
@@ -35,6 +37,15 @@ export default function Projects() {
       background: "bg-slate-900/[0.8]",
       target: "_blank",
       github: "https://github.com/VarelaCristianFacundo/lutin",
+    },
+    {
+      title: "Node.js Aplication",
+      tech: [SiJavascript, SiCss3, SiNodedotjs],
+      link: "https://nodejs-project-chyw.onrender.com/",
+      cover: "/web2.png",
+      background: "bg-slate-900/[0.8]",
+      target: "_blank",
+      github: "https://github.com/MateoDonino/nodejs-project",
     },
     {
       title: "Portfolio Web",
