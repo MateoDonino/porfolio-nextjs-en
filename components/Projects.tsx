@@ -22,6 +22,8 @@ export default function Projects() {
   const projects = [
     {
       title: "Api Rick and Morty",
+      description:
+        "The Rick and Morty API that allows users to search for and view information about characters. It includes a search field and three filters, as well as the ability to delete them and reset the search. The API is deployed on Vercel.",
       tech: [SiReact, SiVite, SiTailwindcss, SiGraphql],
       link: "https://dev-challenge-rickymorty.vercel.app/",
       cover: "/web1.png",
@@ -31,6 +33,8 @@ export default function Projects() {
     },
     {
       title: "Lutin Studio",
+      description:
+        "As a freelance project, I created a Website promoting NFTs (non-fungible tokens) for a client from Chile. The team consisted of two Graphic Designers and Two Web Developers. The Website was deployed on Vercel.",
       tech: [SiHtml5, SiCss3, SiReact, SiVite, SiBootstrap],
       link: "https://lutin-varelacristianfacundo.vercel.app/",
       cover: "/web4.png",
@@ -40,6 +44,8 @@ export default function Projects() {
     },
     {
       title: "Node.js Aplication",
+      description:
+        "A simple web application with Node.js that allows us to navigate from page to page. The interface is lightweight and fast, designed for users seeking efficient and straightforward navigation. It is deployed on Render.",
       tech: [SiJavascript, SiCss3, SiNodedotjs],
       link: "https://nodejs-project-chyw.onrender.com/",
       cover: "/web2.png",
@@ -49,6 +55,8 @@ export default function Projects() {
     },
     {
       title: "Portfolio Web",
+      description:
+        "Yes, this same project. A web portfolio with my resume, where users can find my projects and also interact to download my CV, visit my LinkedIn, Github, and more. It is deployed on Vercel.",
       tech: [SiReact, SiNextdotjs, SiTailwindcss, SiTypescript],
       link: "https://porfolio-nextjs-eight.vercel.app/",
       cover: "/web7.png",
@@ -88,6 +96,11 @@ export default function Projects() {
                   </div>
                 </DirectionAwareHover>
               </div>
+
+              <div className="text-center mt-2 cursor-default">
+                {project.description}
+              </div>
+
               <Link href={project.github} target="_blank">
                 <p className="mt-3 flex flex-row gap-2 text-xl justify-center hover:text-green-500">
                   GitHub Code <SiGithub className="mt-1 w-5 h-5" />
