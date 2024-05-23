@@ -40,7 +40,7 @@ export default function HeroSection() {
                 <GrCopy className="w-6 h-5 mt-2.5 ml-2 cursor-pointer hover:scale-125 transition-all" />
               </div>
               {copied && (
-                <p className="mt-3.5 font-semibold text-green-500">Copiado!</p>
+                <p className="mt-3.5 font-semibold text-green-500">Copied!</p>
               )}
             </div>
           </div>
