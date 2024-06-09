@@ -59,7 +59,7 @@ export default function Experience() {
                   technologies such as HTML, CSS, ReactJS, and Bootstrap.
                 </p>
                 <p className="mt-2">
-                  The teamwork consisted of two Graphic Designers and two Web
+                  · The teamwork consisted of two Graphic Designers and two Web
                   Developers. Excellent communication and collaboration.
                 </p>
               </div>
