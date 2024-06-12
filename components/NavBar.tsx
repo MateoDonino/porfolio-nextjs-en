@@ -27,7 +27,7 @@ export default function Navbar({ className }: { className?: string }) {
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 2.5 }}
+        transition={{ duration: 3 }}
       >
         <nav
           className={cn(" py-10 flex justify-between items-center", className)}

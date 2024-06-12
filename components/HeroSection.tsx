@@ -19,18 +19,19 @@ export default function HeroSection() {
 
   return (
     <section className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between">
-      <motion.div
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 2.5 }}
-      >
-        <div className="space-y-8 text-center lg:text-left">
-          <h1 className="text-4xl lg:text-7xl font-bold">
-            Nice to meet you!👋🏻 <br />
-            <span className="underline underline-offset-8 decoration-green-500">
-              {"I'm Mateo"}
-            </span>
-          </h1>
+      <div className="space-y-8 text-center lg:text-left">
+        <h1 className="text-4xl lg:text-7xl font-bold">
+          Nice to meet you!👋🏻 <br />
+          <span className="underline underline-offset-8 decoration-green-500">
+            {"I'm Mateo"}
+          </span>
+        </h1>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 3 }}
+        >
+          {" "}
           <div className="ml-9 flex flex-row bg-gray-900 h-10 w-[300px] rounded-[30px]">
             <span className="flex flex-col justify-center text-white grow-[1] max-w-[90%] text-center">
               mateodonino@gmail.com
@@ -44,19 +45,21 @@ export default function HeroSection() {
               )}
             </div>
           </div>
-          <p className="md:w-96 text-lg text-gray-300">
-            {
-              "Specializing in Frontend development, I can create custom websites and web applications using the latest available technologies and frameworks that suit your specific needs. I can advise you on selecting the best technology for your project, analyze requirements, and plan development. Feel free to take a look at my CV! There, you can find all my details, education, and certifications."
-            }
-          </p>
-          <hr className="invisible" />
-          <hr className="invisible" />
-        </div>
-      </motion.div>
+        </motion.div>
+
+        <p className="md:w-96 text-lg text-gray-300">
+          {
+            "Specializing in Frontend development, I can create custom websites and web applications using the latest available technologies and frameworks that suit your specific needs. I can advise you on selecting the best technology for your project, analyze requirements, and plan development. Feel free to take a look at my CV! There, you can find all my details, education, and certifications."
+          }
+        </p>
+        <hr className="invisible" />
+        <hr className="invisible" />
+      </div>
+
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 2.5 }}
+        transition={{ duration: 5 }}
       >
         <div className=" relative">
           <div className="w-72 h-72 space-y-3 -rotate-[30deg] relative">
