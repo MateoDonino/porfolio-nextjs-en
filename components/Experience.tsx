@@ -55,7 +55,7 @@ export default function Experience() {
                   Tokens) Website.
                 </p>
                 <p className="mt-2">
-                  · Development and design of the user interface using
+                  · Development andesign of the user interface using
                   technologies such as HTML, CSS, ReactJS, and Bootstrap.
                 </p>
                 <p className="mt-2">
