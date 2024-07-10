@@ -6,7 +6,7 @@ import Title from "./Title";
 
 export default function Experience() {
   return (
-    <section>
+    <section id="experience">
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -15,7 +15,7 @@ export default function Experience() {
         {" "}
         <div className="max-w-5xl mx-auto px-8">
           <Title
-            text={"Experience 🧑🏻‍💼"}
+            text={"Experience 💼"}
             className="flex flex-col items-center justify-center rotate-6"
           />
         </div>

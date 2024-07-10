@@ -67,7 +67,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="py-10 p-5 sm:p-0">
+    <section id="projects" className="py-10 p-5 sm:p-0">
       <Title
         text={"Projects 🗂️"}
         className="flex flex-col items-center justify-center rotate-6"
