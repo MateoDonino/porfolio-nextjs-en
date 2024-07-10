@@ -120,7 +120,7 @@ export default function Projects() {
                         clip-rule="evenodd"
                       />
                     </svg>
-                    Codigo en Github
+                    Visit GitHub Repository
                   </button>
                 </Link>
               </div>

@@ -24,12 +24,12 @@ export default function Experience() {
           <li>
             <div className="timeline-middle"></div>
             <div className="timeline-start mb-5 ">
-              <div className="text-xl font-bold">
+              <div className="text-lg font-bold">
                 Internship in the Commercial Area of Movistar Telefónica
               </div>
               <div className="text-md text-green-500">MOVISTAR TELEFÓNICA</div>
               <time className="text-sm">January - June 2019</time>
-              <div className="text-[#ADB7BE] text-md text-justify">
+              <div className="text-[#ADB7BE] text-sm text-justify">
                 <p className=" mt-1 ">
                   · I was in charge of supervising and controlling stock at
                   various physical sales points in the city of Santa Fe.
@@ -46,10 +46,10 @@ export default function Experience() {
           <li>
             <hr />
             <div className="timeline-end mb-10 mt-5">
-              <div className="text-xl font-bold">Frontend Web Developer</div>
+              <div className="text-lg font-bold">Frontend Web Developer</div>
               <div className="text-md text-green-500">LUTIN STUDIOS</div>
               <time className="text-sm">August - November 2022</time>
-              <div className="text-[#ADB7BE] text-md text-justify">
+              <div className="text-[#ADB7BE] text-sm text-justify">
                 <p className="mt-1">
                   · I collaborated on a Freelance project for a client from
                   Chile. It involved creating a promotional NFT (Non-Fungible
