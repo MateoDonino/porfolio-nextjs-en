@@ -25,7 +25,7 @@ export default function Projects() {
       description:
         "The Rick and Morty API that allows users to search for and view information about characters. It includes a search field and three filters, as well as the ability to delete them and reset the search. Website developed with React, Vite, Graphql and Tailwind, deployed on Vercel.",
       tech: [SiReact, SiVite, SiTailwindcss, SiGraphql],
-      link: "https://dev-challenge-rickymorty.vercel.app/",
+      link: "https://api-rickmorty-vite.netlify.app/",
       cover: "/web1.png",
       background: "bg-slate-900/[0.8]",
       target: "_blank",
@@ -58,7 +58,7 @@ export default function Projects() {
       description:
         "Yes, this same project. A web portfolio with my resume, where users can find my projects and also interact to download my CV, visit my LinkedIn, Github, and more. Website developed with React, Next.js, Typescript, and Tailwind, deployed on Vercel.",
       tech: [SiReact, SiNextdotjs, SiTailwindcss, SiTypescript],
-      link: "https://porfolio-nextjs-eight.vercel.app/",
+      link: "https://portfolio-en-nextjs.netlify.app",
       cover: "/web7.png",
       background: "bg-slate-900/[0.8]",
       target: "_blank",
