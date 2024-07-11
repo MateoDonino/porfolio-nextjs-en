@@ -37,26 +37,26 @@ export default function Navbar({ className }: { className?: string }) {
         >
           <a
             href="#"
-            className="hover:scale-125 transition-all text-lg font-bold underline underline-offset-8 decoration-green-500 -rotate-2"
+            className="hover:scale-125 transition-all text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2"
           >
             Portfolio 👩🏻‍💻
           </a>
           <div className="py-3 flex justify-center items-center gap-12">
             <Link
               href="#experience"
-              className="hover:scale-110 transition-all hover:text-green-500 text-md font-bold  decoration-gray-500 "
+              className="hover:scale-110 transition-all hover:text-green-500 text-lg font-bold  decoration-gray-500 "
             >
               Experience
             </Link>
             <Link
               href="#skills"
-              className="hover:scale-110 transition-all hover:text-indigo-500 text-md font-bold  decoration-gray-500"
+              className="hover:scale-110 transition-all hover:text-indigo-500 text-lg font-bold  decoration-gray-500"
             >
               Skills
             </Link>
             <Link
               href="#projects"
-              className="hover:scale-110 transition-all hover:text-green-500 text-md font-bold  decoration-gray-500"
+              className="hover:scale-110 transition-all hover:text-green-500 text-lg font-bold  decoration-gray-500"
             >
               Proyects
             </Link>
@@ -71,7 +71,7 @@ export default function Navbar({ className }: { className?: string }) {
                   aria-label={social.label}
                   target={social.target}
                 >
-                  <Icon className="w-4 h-4 hover:scale-150 transition-all" />
+                  <Icon className="w-5 h-5 hover:scale-150 transition-all" />
                 </Link>
               );
             })}

@@ -18,8 +18,8 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between">
-      <div className="space-y-8 text-center lg:text-left">
+    <section className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between mt-10">
+      <div className="space-y-12 text-center lg:text-left">
         <h1 className=" lg:text-5xl font-bold">
           Nice to meet you!👋🏻 <br />
           <span className="underline underline-offset-8 decoration-green-500">
@@ -32,22 +32,24 @@ export default function HeroSection() {
           transition={{ duration: 3 }}
         >
           {" "}
-          <div className="relative flex flex-row bg-gray-900 h-8 w-[250px] rounded-[30px]">
-            <span className="flex flex-col justify-center text-white grow-[1] max-w-[90%] text-center text-sm ">
-              mateodonino@gmail.com
-            </span>
-            <div className="w-[15%] bg-indigo-600 rounded-r-2xl">
-              <div onClick={handleCopy}>
-                <GrCopy className="w-5 h-5 mt-1.5 ml-2 cursor-pointer hover:scale-125 transition-all" />
+          <div className="ml-36 lg:ml-20">
+            <div className=" relative flex flex-row bg-gray-900 h-8 w-[250px] rounded-[30px]">
+              <span className="flex flex-col justify-center text-white grow-[1] max-w-[90%] text-center text-sm ">
+                mateodonino@gmail.com
+              </span>
+              <div className="w-[15%] bg-indigo-600 rounded-r-2xl">
+                <div onClick={handleCopy}>
+                  <GrCopy className="w-5 h-5 mt-1.5 ml-2 cursor-pointer hover:scale-125 transition-all" />
+                </div>
+                {copied && (
+                  <p className="mt-3.5 font-semibold text-green-500">Copied!</p>
+                )}
               </div>
-              {copied && (
-                <p className="mt-3.5 font-semibold text-green-500">Copied!</p>
-              )}
             </div>
           </div>
         </motion.div>
 
-        <p className="md:w-96 text-md text-gray-300">
+        <p className="md:w-96 text-lg leading-8 text-gray-300 text-center lg:text-left">
           {
             "I am a Web Developer, specializing in Frontend development, I can create custom websites and web applications using the latest available technologies and frameworks that suit your specific needs. I can advise you on selecting the best technology for your project, analyze requirements, and plan development. Feel free to take a look at my CV! There, you can find all my details, education, and certifications."
           }

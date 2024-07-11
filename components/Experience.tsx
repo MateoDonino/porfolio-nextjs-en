@@ -7,7 +7,7 @@ import { TfiWorld } from "react-icons/tfi";
 
 export default function Experience() {
   return (
-    <section id="experience" className="">
+    <section id="experience">
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -20,16 +20,16 @@ export default function Experience() {
             className="flex flex-col items-center justify-center rotate-6"
           />
         </div>
-        <ul className=" mt-16 timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+        <ul className=" mt-14 timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li>
             <div className="timeline-middle"></div>
             <div className="timeline-start mb-5 ">
-              <div className="text-lg font-bold">
+              <div className="text-2xl font-bold">
                 Internship in the Commercial Area of Movistar Telefónica
               </div>
-              <div className="text-md text-green-500">MOVISTAR TELEFÓNICA</div>
+              <div className="text-lg text-green-500">MOVISTAR TELEFÓNICA</div>
               <time className="text-sm">January - June 2019</time>
-              <div className="text-[#ADB7BE] text-sm text-justify">
+              <div className="text-[#ADB7BE] text-md text-justify">
                 <p className=" mt-1 ">
                   · I was in charge of supervising and controlling stock at
                   various physical sales points in the city of Santa Fe.
@@ -38,7 +38,16 @@ export default function Experience() {
                   · Efficient teamwork, responsibility, and excellent
                   communication.
                 </p>
-                <p className=" mt-2">· Excellent customer service.</p>
+
+                <p className=" mt-2">
+                  · Worked closely with cross-functional teams to ensure
+                  alignment on objectives and deliverables.
+                </p>
+                <p className=" mt-2">
+                  · Participated in regular team meetings to discuss goals,
+                  progress, and challenges, fostering a collaborative
+                  environment.
+                </p>
               </div>
             </div>
             <hr />
@@ -46,10 +55,10 @@ export default function Experience() {
           <li>
             <hr />
             <div className="timeline-end mb-10 mt-5">
-              <div className="text-lg font-bold">Frontend Web Developer</div>
-              <div className="text-md text-green-500">LUTIN STUDIOS</div>
+              <div className="text-2xl font-bold">Frontend Web Developer</div>
+              <div className="text-lg text-green-500">LUTIN STUDIOS</div>
               <time className="text-sm">August - November 2022</time>
-              <div className="text-[#ADB7BE] text-sm text-justify">
+              <div className="text-[#ADB7BE] text-md text-justify border-l-green-500 ">
                 <p className="mt-1">
                   · I collaborated on a Freelance project for a client from
                   Chile. It involved creating a promotional NFT (Non-Fungible
@@ -62,6 +71,18 @@ export default function Experience() {
                 <p className="mt-2">
                   · The teamwork consisted of two Graphic Designers and two Web
                   Developers. Excellent communication and collaboration.
+                </p>
+                <p className="mt-2">
+                  · Effective Communication. Throughout the project, I
+                  maintained open channels of communication with my team
+                  members. We regularly discussed progress, challenges, and
+                  ideas, ensuring everyone was on the same page.
+                </p>
+                <p className="mt-2">
+                  · Excelent Adaptability and Flexibility, as the project
+                  evolved, we remained flexible. We adjusted our approach when
+                  necessary, accommodating changes in requirements or unexpected
+                  obstacles.
                 </p>
               </div>
               <div className="mt-5">
