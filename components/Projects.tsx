@@ -67,7 +67,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="flex flex-col items-center ">
+    <section id="projects" className="flex flex-col items-center">
       <Title
         text={"Projects 🗂️"}
         className="flex flex-col items-center justify-center rotate-6"
@@ -97,15 +97,15 @@ export default function Projects() {
                 </DirectionAwareHover>
               </div>
 
-              <div className="text-center mt-2 cursor-default">
+              <div className="text-center mt-5 cursor-default ">
                 {project.description}
               </div>
 
-              <div className="flex justify-center mt-2 hover:scale-110 transition-all">
+              <div className="flex justify-center mt-5 hover:scale-110 transition-all">
                 <Link href={project.github} target="_blank">
                   <button
                     type="button"
-                    className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 me-2 mb-2"
+                    className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-neutral-900 me-2 mb-2"
                   >
                     <svg
                       className="w-4 h-4 me-2"

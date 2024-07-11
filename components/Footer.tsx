@@ -27,13 +27,8 @@ export default function Navbar({ className }: { className?: string }) {
           className
         )}
       >
-        <div>
-          <a
-            href="#"
-            className="hover:scale-125 transition-all text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2"
-          >
-            Portfolio 👩🏻‍💻
-          </a>
+        <div className="hover:scale-125 transition-all text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">
+          <a href="#">Portfolio 👩🏻‍💻</a>
         </div>
         <div className="flex items-center gap-5">
           {socials.map((social, index) => {
