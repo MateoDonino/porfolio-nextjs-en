@@ -7,6 +7,7 @@ import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 import Experience from "../components/Experience";
 import ScrollToTopBottom from "../components/ScrollToTop";
+import SignupFormDemo from "../components/ContactForm";
 
 export default function page() {
   return (
