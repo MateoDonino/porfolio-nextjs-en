@@ -32,7 +32,7 @@ export default function HeroSection() {
           transition={{ duration: 3 }}
         >
           {" "}
-          <div className="ml-10 lg:ml-20">
+          <div className="ml-9 lg:ml-20">
             <div className=" relative flex flex-row bg-gray-900 h-10 w-[300px] rounded-[30px]">
               <span className="flex flex-col justify-center text-white grow-[1] max-w-[90%] text-center text-md ">
                 mateodonino@gmail.com
