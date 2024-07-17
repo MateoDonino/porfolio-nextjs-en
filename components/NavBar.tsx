@@ -36,7 +36,7 @@ export default function Navbar({ className }: { className?: string }) {
           )}
         >
           <div className="hover:scale-125 transition-all text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">
-            <a href="#">Portfolio 👩🏻‍💻</a>
+            <Link href="#">Portfolio 👩🏻‍💻</Link>
           </div>
           <div className="py-3 flex justify-center items-center gap-12">
             <Link

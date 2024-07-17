@@ -49,9 +49,9 @@ export default function HeroSection() {
           </div>
         </motion.div>
 
-        <p className="md:w-96 text-lg leading-9 text-gray-300 text-center lg:text-left">
+        <p className="md:w-1/2 text-xl leading-9 text-gray-300 text-center lg:text-left">
           {
-            "I am a Web Developer, specializing in Frontend development, I can create custom websites and web applications using the latest available technologies and frameworks that suit your specific needs. I can advise you on selecting the best technology for your project, analyze requirements, and plan development. Feel free to take a look at my CV! There, you can find all my details, education, and certifications."
+            "I am a Web Developer, specializing in Front-end development, I can create custom websites and web applications using the latest available technologies and frameworks that suit your specific needs. I can advise you on selecting the best technology for your project, analyze requirements, and plan development. Feel free to take a look at my CV! There, you can find all my details, education, and certifications."
           }
         </p>
         <hr className="invisible" />

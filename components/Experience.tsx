@@ -22,34 +22,39 @@ export default function Experience() {
         </div>
         <ul className=" mt-14 timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li>
-            <div className="timeline-middle"></div>
-            <div className="timeline-start mb-5 ">
-              <div className="text-2xl font-bold">
-                Internship in the Commercial Area of Movistar Telefónica
-              </div>
-              <div className="text-lg text-green-500">MOVISTAR TELEFÓNICA</div>
-              <time className="text-sm">January - June 2019</time>
-              <div className="text-[#ADB7BE] text-md text-justify">
-                <p className=" mt-1 ">
-                  · I was in charge of supervising and controlling stock at
-                  various physical sales points in the city of Santa Fe.
-                </p>
-                <p className=" mt-2">
-                  · Efficient teamwork, responsibility, and excellent
-                  communication.
-                </p>
+            <div className="timeline-middle ">
+              {" "}
+              <div className="timeline-start mb-5 ">
+                <div className="text-2xl font-bold">
+                  Internship in the Commercial Area of Movistar Telefónica
+                </div>
+                <div className="text-lg text-green-500">
+                  MOVISTAR TELEFÓNICA
+                </div>
+                <time className="text-sm">January - June 2019</time>
+                <div className="text-[#ADB7BE] text-md text-justify">
+                  <p className=" mt-1 ">
+                    · I was in charge of supervising and controlling stock at
+                    various physical sales points in the city of Santa Fe.
+                  </p>
+                  <p className=" mt-2">
+                    · Efficient teamwork, responsibility, and excellent
+                    communication.
+                  </p>
 
-                <p className=" mt-2">
-                  · Worked closely with cross-functional teams to ensure
-                  alignment on objectives and deliverables.
-                </p>
-                <p className=" mt-2">
-                  · Participated in regular team meetings to discuss goals,
-                  progress, and challenges, fostering a collaborative
-                  environment.
-                </p>
+                  <p className=" mt-2">
+                    · Worked closely with cross-functional teams to ensure
+                    alignment on objectives and deliverables.
+                  </p>
+                  <p className=" mt-2">
+                    · Participated in regular team meetings to discuss goals,
+                    progress, and challenges, fostering a collaborative
+                    environment.
+                  </p>
+                </div>
               </div>
             </div>
+
             <hr />
           </li>
           <li>
