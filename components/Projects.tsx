@@ -59,7 +59,7 @@ export default function Projects() {
         "Yes, this same project. A web portfolio with my resume, where users can find my projects and also interact to download my CV, visit my LinkedIn, Github, and more. Website developed with React, Next.js, Typescript, and Tailwind, deployed on Netlify.",
       tech: [SiReact, SiNextdotjs, SiTailwindcss, SiTypescript],
       link: "https://portfolio-en-nextjs.netlify.app",
-      cover: "/web7.png",
+      cover: "/web8.png",
       background: "bg-slate-900/[0.8]",
       target: "_blank",
       github: "https://github.com/MateoDonino/porfolio-nextjs",
