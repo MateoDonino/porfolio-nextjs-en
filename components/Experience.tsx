@@ -16,7 +16,7 @@ export default function Experience() {
         {" "}
         <div className="max-w-7xl mx-auto px-8">
           <Title
-            text={"Experience 💼"}
+            text={"Experienc 💼"}
             className="flex flex-col items-center justify-center rotate-6"
           />
         </div>
