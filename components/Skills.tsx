@@ -14,8 +14,10 @@ import {
   SiVite,
   SiTailwindcss,
   SiBootstrap,
+  SiExpo,
+  SiTypescript,
 } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
+import { TbBrandReactNative } from "react-icons/tb";
 
 export default function Skills() {
   const skills = [
@@ -32,20 +34,21 @@ export default function Skills() {
       Icon: SiJavascript,
     },
     {
-      text: "ReactJS",
+      text: "React",
       Icon: SiReact,
+    },
+    {
+      text: "React Native",
+      Icon: TbBrandReactNative,
     },
     {
       text: "Node.js",
       Icon: SiNodedotjs,
     },
+
     {
-      text: "Java",
-      Icon: FaJava,
-    },
-    {
-      text: "MySQL ",
-      Icon: SiMysql,
+      text: "Typescript",
+      Icon: SiTypescript,
     },
     {
       text: "Next.js",
@@ -60,8 +63,8 @@ export default function Skills() {
       Icon: SiTailwindcss,
     },
     {
-      text: "Bootstrap",
-      Icon: SiBootstrap,
+      text: "Expo",
+      Icon: SiExpo,
     },
     {
       text: "Github",
