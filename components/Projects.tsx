@@ -24,7 +24,7 @@ export default function Projects() {
     {
       title: "Api Rick and Morty",
       description:
-        "The Rick and Morty API that allows users to search for and view information about characters. It includes a search field and three filters, as well as the ability to delete them and reset the search. Website developed with React, Vite, Graphql and Tailwind, deployed on Netlify.",
+        "This project, developed as part of a development challenge, utilizes the Rick and Morty API to allow users to search for and view information about characters. The app includes a search field and three filters, with options to delete them and reset the search. Built with React, Vite, GraphQL, and TailwindCSS, the application offers a modern and responsive user interface. The project is deployed on Netlify for fast and efficient access.",
       tech: [SiReact, SiVite, SiTailwindcss, SiGraphql],
       link: "https://api-rickmorty-vite.netlify.app/",
       cover: "/web1.png",
@@ -46,7 +46,7 @@ export default function Projects() {
     {
       title: "Lutin Studio",
       description:
-        "As a freelance project, I created a Website promoting NFTs (non-fungible tokens) for a client from Chile. The team consisted of two Graphic Designers and Two Web Developers. Website developed with Html5, CSS, React, Vite, Bootstrap, deployed on Vercel.",
+        "This project, developed as a freelance assignment, involved creating a website promoting NFTs (non-fungible tokens) for a client from Chile. The development team comprised two Web Developers and two Graphic Designers UX/UI, working collaboratively to achieve a modern and engaging design. The website is built using HTML5, CSS, React, Vite, and Bootstrap, ensuring responsiveness and user-friendliness. The project is hosted on Vercel for optimal performance and accessibility",
       tech: [SiHtml5, SiCss3, SiReact, SiVite, SiBootstrap],
       link: "https://lutin-varelacristianfacundo.vercel.app/",
       cover: "/web4.png",
