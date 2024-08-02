@@ -9,10 +9,11 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiVite,
-  SiGithub,
   SiJavascript,
   SiNodedotjs,
+  SiExpo,
 } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 import Title from "./Title";
 import Link from "next/link";
 import { cn } from "../lib/utils";
@@ -30,6 +31,17 @@ export default function Projects() {
       background: "bg-slate-900/[0.8]",
       target: "_blank",
       github: "https://github.com/MateoDonino/dev-challenge-rickymorty",
+    },
+    {
+      title: "React Native Expo App",
+      description:
+        "This project, developed with React Native and Expo, utilizes the Metacritic API to display the highest-rated games. The app features dynamic routes and simple navigation, providing a smooth and enjoyable user experience. The user interface is designed with TailwindCSS, ensuring a modern and adaptive design.",
+      tech: [TbBrandReactNative, SiExpo, SiTailwindcss],
+      link: "https://github.com/MateoDonino/react-native-app",
+      cover: "/web12.png",
+      background: "bg-slate-900/[0.8]",
+      target: "_blank",
+      github: "https://github.com/MateoDonino/react-native-app",
     },
     {
       title: "Lutin Studio",
@@ -52,17 +64,6 @@ export default function Projects() {
       background: "bg-slate-900/[0.8]",
       target: "_blank",
       github: "https://github.com/MateoDonino/nodejs-project",
-    },
-    {
-      title: "Portfolio Web",
-      description:
-        "Yes, this same project. A web portfolio with my resume, where users can find my projects and also interact to download my CV, visit my LinkedIn, Github, and more. Website developed with React, Next.js, Typescript, and Tailwind, deployed on Netlify.",
-      tech: [SiReact, SiNextdotjs, SiTailwindcss, SiTypescript],
-      link: "https://portfolio-en-nextjs.netlify.app",
-      cover: "/web8.png",
-      background: "bg-slate-900/[0.8]",
-      target: "_blank",
-      github: "https://github.com/MateoDonino/porfolio-nextjs",
     },
   ];
 
