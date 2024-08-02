@@ -57,7 +57,7 @@ export default function Projects() {
     {
       title: "Node.js Aplication",
       description:
-        "A simple web application with Node.js that allows us to navigate from page to page. The interface is lightweight and fast, designed for users seeking efficient and straightforward navigation. Website developed with Javascript, Css3, and Node.js, deployed on Render.",
+        "This is a practical example or tutorial of Node.js (JavaScript on the server) where we will create a simple web application to understand how to install modules like Express.js and how to use it to build multi-page applications. We will also learn to add CSS styles and frameworks like Bootstrap 5 by serving static files. This tutorial will cover best practices for structuring your application and managing dependencies.",
       tech: [SiJavascript, SiCss3, SiNodedotjs],
       link: "https://nodejs-project-chyw.onrender.com/",
       cover: "/web15.png",
