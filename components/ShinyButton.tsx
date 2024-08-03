@@ -2,14 +2,19 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { TfiWorld } from "react-icons/tfi";
+import "react";
+
+declare module "react" {
+  interface CSSProperties {
+    "--x"?: string;
+  }
+}
 
 const ShinyButton = () => {
-  const [x, setX] = useState("100%");
-
   return (
     <motion.button
-      initial={{ scale: 1 }}
-      animate={{ scale: 1 }}
+      initial={{ "--x": "100%", scale: 1 }}
+      animate={{ "--x": "-100%" }}
       whileTap={{ scale: 0.97 }}
       transition={{
         repeat: Infinity,
@@ -26,10 +31,6 @@ const ShinyButton = () => {
           mass: 0.1,
         },
       }}
-      style={{ "--x": x } as React.CSSProperties}
-      onAnimationComplete={() =>
-        setX((prev) => (prev === "100%" ? "-100%" : "100%"))
-      }
       className="px-6 py-2 rounded-md relative radial-gradient"
     >
       <span className="text-neutral-100 inline-flex tracking-wide font-light h-full w-full relative linear-mask">
@@ -56,8 +57,6 @@ const ShinyButton = () => {
 export default ShinyButton;
 
 const ShinyButton2 = () => {
-  const [x, setX] = useState("100%");
-
   return (
     <motion.button
       initial={{ "--x": "100%", scale: 1 }}
@@ -80,7 +79,7 @@ const ShinyButton2 = () => {
       }}
       className="px-6 py-2 rounded-md relative radial-gradient"
     >
-      <span className="text-neutral-100 inline-flex tracking-wide font-light h-full w-full  relative linear-mask">
+      <span className="text-neutral-100 inline-flex tracking-wide font-light h-full w-full relative linear-mask">
         <TfiWorld className="mt-0.5 w-4 h-4 me-2" />
         Web Page
       </span>
@@ -90,5 +89,3 @@ const ShinyButton2 = () => {
 };
 
 export { ShinyButton2 };
-
-<span className="text-neutral-100 inline-flex tracking-wide font-light h-full w-full relative linear-mask"></span>;
