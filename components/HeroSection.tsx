@@ -18,43 +18,34 @@ export default function HeroSection() {
   };
 
   const text =
-    "I am a Web Developer, specializing in Front-end development, I can create custom websites and web applications using the latest available technologies and frameworks that suit your specific needs. I can advise you on selecting the best technology for your project, analyze requirements, and plan development. Feel free to take a look at my CV! There, you can find all my details, education, and certifications.".split(
+    "I am a passionate Web Developer with experience in creating robust and scalable web applications. I have advanced skills in technologies such as JavaScript, React, Node.js, TypeScript, and more. My specialization is in Front End development, where I focus on delivering efficient and high-quality solutions. ".split(
       " "
     );
+
+  const text2 =
+    "My approach involves understanding your specific needs and translating them into functional, user-friendly applications. I stay updated with the latest industry trends and continuously improve my skill set to provide innovative and effective solutions.".split(
+      " "
+    );
+
+  const text3 =
+    "Take a look at my CV for detailed information about my background, education, and certifications. I look forward to collaborating with you to bring your project to life!".split(
+      " "
+    );
+
+  const duration = 0.1; // duración de la animación de cada elemento
+  const delayBetweenTexts = 0.1;
 
   return (
     <section className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between mt-10">
       <div className="space-y-12 text-center lg:text-left">
-        <h1 className=" text-3xl md:text-5xl font-bold">
-          Nice to meet you 👋🏻 <br />
+        <h1 className=" text-3xl md:text-5xl font-bold ">
+          Hi! Nice to meet you 👋🏻 <br />
           <span className="underline underline-offset-8 decoration-green-500">
             {"I'm Mateo"}
           </span>
         </h1>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 3 }}
-        >
-          {" "}
-          <div className="ml-9 lg:ml-20 ">
-            <div className=" relative flex flex-row bg-gray-900 h-10 w-[300px] rounded-[30px]">
-              <span className="flex flex-col justify-center text-white grow-[1] max-w-[90%] text-center text-md ">
-                mateodonino@gmail.com
-              </span>
-              <div className="w-[15%] bg-indigo-600 rounded-r-2xl">
-                <div onClick={handleCopy}>
-                  <GrCopy className="w-5 h-5 mt-2 ml-2.5 cursor-pointer hover:scale-125 transition-all" />
-                </div>
-                {copied && (
-                  <p className="mt-3.5 font-semibold text-green-500">Copied!</p>
-                )}
-              </div>
-            </div>
-          </div>
-        </motion.div>
 
-        <div className="md:w-1/2 text-xl leading-10 text-gray-300 text-center lg:text-left">
+        <div className="lg:w-2/3 md:w-full text-xl leading-10 text-gray-300 text-center lg:text-left">
           {text.map((el, i) => (
             <motion.span
               initial={{ opacity: 0 }}
@@ -62,6 +53,42 @@ export default function HeroSection() {
               transition={{
                 duration: 0.25,
                 delay: i / 10,
+              }}
+              key={i}
+            >
+              {el}{" "}
+            </motion.span>
+          ))}
+        </div>
+
+        <div className="lg:w-2/3 md:w-full text-xl leading-10 text-gray-300 text-center lg:text-left">
+          {text2.map((el, i) => (
+            <motion.span
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+                duration: 0.25,
+                delay: i / 10 + text.length * duration + delayBetweenTexts,
+              }}
+              key={i}
+            >
+              {el}{" "}
+            </motion.span>
+          ))}
+        </div>
+
+        <div className="lg:w-2/3 md:w-full text-xl leading-10 text-gray-300 text-center lg:text-left">
+          {text3.map((el, i) => (
+            <motion.span
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+                duration: 0.25,
+                delay:
+                  i / 10 +
+                  text.length * duration +
+                  text2.length * duration +
+                  2 * delayBetweenTexts,
               }}
               key={i}
             >
