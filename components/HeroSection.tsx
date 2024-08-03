@@ -45,7 +45,7 @@ export default function HeroSection() {
           </span>
         </h1>
 
-        <div className="lg:w-2/3 md:w-full text-xl leading-10 text-gray-300 text-center lg:text-left">
+        <div className="lg:w-2/3 md:w-full text-xl leading-9 text-gray-300 text-center lg:text-left">
           {text.map((el, i) => (
             <motion.span
               initial={{ opacity: 0 }}
@@ -61,7 +61,7 @@ export default function HeroSection() {
           ))}
         </div>
 
-        <div className="lg:w-2/3 md:w-full text-xl leading-10 text-gray-300 text-center lg:text-left">
+        <div className="lg:w-2/3 md:w-full text-xl leading-9 text-gray-300 text-center lg:text-left">
           {text2.map((el, i) => (
             <motion.span
               initial={{ opacity: 0 }}
@@ -77,7 +77,7 @@ export default function HeroSection() {
           ))}
         </div>
 
-        <div className="lg:w-2/3 md:w-full text-xl leading-10 text-gray-300 text-center lg:text-left">
+        <div className="lg:w-2/3 md:w-full text-xl leading-9 text-gray-300 text-center lg:text-left">
           {text3.map((el, i) => (
             <motion.span
               initial={{ opacity: 0 }}
