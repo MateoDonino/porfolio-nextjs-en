@@ -54,7 +54,7 @@ export default function HeroSection() {
           </div>
         </motion.div>
 
-        <div className="md:w-1/2 text-xl leading-9 text-gray-300 text-center lg:text-left">
+        <div className="md:w-1/2 text-xl leading-10 text-gray-300 text-center lg:text-left">
           {text.map((el, i) => (
             <motion.span
               initial={{ opacity: 0 }}
