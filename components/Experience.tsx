@@ -83,7 +83,7 @@ export default function Experience() {
                 accommodating changes in requirements or unexpected obstacles.
               </p>
             </div>
-            <div className="mt-5 flex gap-5">
+            <div className="mt-5 gap-5 flex md:flex-row flex-col">
               <div className="hover:scale-110 transition-all">
                 <Link
                   href="https://lutin-varelacristianfacundo.vercel.app/"
