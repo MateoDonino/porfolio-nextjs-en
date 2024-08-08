@@ -25,6 +25,7 @@ export default function Skills() {
       text: "HTML5",
       Icon: SiHtml5,
     },
+
     {
       text: "CSS3",
       Icon: SiCss3,
