@@ -28,7 +28,7 @@ export default function HeroSection() {
     );
 
   const text3 =
-    "Take a look at my CV for detailed information about my background, education, and certifications. I look forward to collaborating with you to bring your project to life!".split(
+    "Take a look at my CV for detailed information about my background, education, and certification. I look forward to collaborating with you to bring your project to life!".split(
       " "
     );
 
